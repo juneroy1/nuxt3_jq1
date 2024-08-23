@@ -1,5 +1,18 @@
 <template>
   <div>
+    <header>
+        <nav>
+
+            <ul>
+                <li><NuxLink to="/">Home</NuxLink></li>
+                <li><NuxLink to="/about">About</NuxLink></li>
+                <li><NuxLink to="/products">Products</NuxLink></li>
+            </ul>
+        
+             <!-- // this behavior will not be like a single page application or SPA -->
+             <a href="/about">normal link -- about page</a>
+        </nav>
+    </header>
     <h2>home</h2>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse provident
