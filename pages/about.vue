@@ -1,5 +1,18 @@
 <template>
     <div>
+        <header>
+        <nav>
+            <NuxtLink>Nuxt JQ dev </NuxtLink>
+            <ul>
+                <li><NuxtLink  to="/" >Home</NuxtLink></li>
+                <li><NuxtLink to="/about" >About</NuxtLink></li>
+                <li><NuxtLink to="/products" >Products</NuxtLink></li>
+            </ul>
+        
+             <!-- // this behavior will not be like a single page application or SPA -->
+             <a href="/about">normal link -- about page</a>
+        </nav>
+    </header>
       <h2>about</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse provident

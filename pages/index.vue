@@ -2,11 +2,11 @@
   <div>
     <header>
         <nav>
-
+            <NuxtLink>Nuxt JQ dev </NuxtLink>
             <ul>
-                <li><NuxLink to="/">Home</NuxLink></li>
-                <li><NuxLink to="/about">About</NuxLink></li>
-                <li><NuxLink to="/products">Products</NuxLink></li>
+                <li><NuxtLink to="/">Home</NuxtLink></li>
+                <li><NuxtLink to="/about">About</NuxtLink></li>
+                <li><NuxtLink to="/products">Products</NuxtLink></li>
             </ul>
         
              <!-- // this behavior will not be like a single page application or SPA -->
