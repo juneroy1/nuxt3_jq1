@@ -2,7 +2,7 @@
     <div>
         <header>
         <nav>
-            <NuxtLink>Nuxt JQ dev </NuxtLink>
+            <NuxtLink to="/">Nuxt JQ dev </NuxtLink>
             <ul>
                 <li><NuxtLink  to="/" >Home</NuxtLink></li>
                 <li><NuxtLink to="/about" >About</NuxtLink></li>
