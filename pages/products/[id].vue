@@ -11,7 +11,8 @@
         layout: 'products'
     });
 </script>
+<style></style>
 
-<style  scoped>
+<!-- <style  scoped>
 
-</style>
+</style> -->
