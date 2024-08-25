@@ -10,7 +10,7 @@
             </ul>
         
              <!-- // this behavior will not be like a single page application or SPA -->
-             <a href="/about">normal link -- about page</a>
+             <!-- <a href="/about">normal link -- about page</a> -->
         </nav>
     </header>
       <h2>about</h2>
