@@ -2,8 +2,8 @@
     <div>
         <header class="shadow-sm bg-white">
         <nav class="container mx-auto p-4 flex justify-between">
-          <NuxtLink to="/">Nuxt JQ dev </NuxtLink>
-            <ul>
+          <NuxtLink to="/" class="font-bold">Nuxt JQ dev </NuxtLink>
+            <ul class="flex gap-4">
                 <li><NuxtLink to="/">Home</NuxtLink></li>
                 <li><NuxtLink to="/about">About</NuxtLink></li>
                 <li><NuxtLink to="/products">Products</NuxtLink></li>
@@ -13,7 +13,7 @@
              <!-- <a href="/about">normal link -- about page</a> -->
         </nav>
     </header>
-    <div>
+    <div class="container mx-auto p-4">
         <slot/>
     </div>
     </div>
