@@ -14,7 +14,11 @@
   </template>
   
   <script setup>
- const {data} = await useFetch('/api/jq?name=juneroy')
+ //const {data} = await useFetch('/api/jq?name=juneroy') // get request
+ const {data} = await useFetch('/api/jq?name=juneroy', {
+   method: 'post', 
+   body: {name: 'junerpy', age: 30}
+ }) // post request
   </script>
   
   <style scoped>
