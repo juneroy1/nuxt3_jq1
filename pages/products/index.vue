@@ -13,6 +13,14 @@ definePageMeta({
   layout: "products",
 });
 const { data: products } = await useFetch("https://fakestoreapi.com/products");
+
+
+useHead({
+    title: 'NuXT JQ DEV | merch',
+    meta: [
+        {name: 'description', content: 'Nuxt JQ DEV MERCH'}
+    ]
+})
 </script>
 
 <style scoped></style>
