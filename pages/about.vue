@@ -14,7 +14,7 @@
   </template>
   
   <script setup>
- const {data} = await useFetch('/api/jq')
+ const {data} = await useFetch('/api/jq?name=juneroy')
   </script>
   
   <style scoped>
