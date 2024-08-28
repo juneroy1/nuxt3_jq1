@@ -7,11 +7,14 @@
         obcaecati soluta odio, possimus quasi praesentium numquam sequi placeat
         omnis.
       </p>
+      <div>
+        {{ data }}
+      </div>
     </div>
   </template>
   
-  <script>
-  export default {};
+  <script setup>
+ const {data} = await useFetch('/api/jq')
   </script>
   
   <style scoped>
