@@ -20,7 +20,7 @@ useHead({
     meta: [
         {name: 'description', content: 'Nuxt JQ DEV MERCH'}
     ]
-})
+});
 </script>
 
 <style scoped></style>
