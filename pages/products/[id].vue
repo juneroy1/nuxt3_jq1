@@ -1,5 +1,8 @@
 <template>
   <div>
+    <Head>
+        <Title>Nuxt JQ DEV | {{ product.title }}</Title>
+    </Head>
     <ProductDetails :product="product" />
   </div>
 </template>
