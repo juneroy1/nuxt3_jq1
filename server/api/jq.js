@@ -3,9 +3,9 @@
     // handle query params
     // const { name } = useQuery(event) old method
     const { name } = getQuery(event); //new method
-
+    const { currencyKey } = useRuntimeConfig();
     const { data } = await $fetch(
-      "https://api.currencyapi.com/v3/currencies?apikey=cur_live_27e9nuVF3j90eubaFn02niLvPIB9m2FCTTp9qbrF"
+      `https://api.currencyapi.com/v3/currencies?apikey=${currencyKey}`
     );
 
 
