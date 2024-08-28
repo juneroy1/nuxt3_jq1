@@ -2,6 +2,9 @@
   <div>
     <Head>
         <Title>Nuxt JQ DEV | {{ product.title }}</Title>
+        <Meta
+        name="description" :content="product.description"
+        />
     </Head>
     <ProductDetails :product="product" />
   </div>
