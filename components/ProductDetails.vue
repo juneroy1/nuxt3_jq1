@@ -7,6 +7,8 @@
             <div class="p-7">
                 <h2 class="text-4xl my-7">{{ product.title }}</h2>
                 <p class="text-xl my-7">Price - $ {{ product.price }}</p>
+                <h3 class="font-bold border-b-2 mb-4 pb-2">Product description: </h3>
+                <p class="mb-7">{{ product.description }}</p>
             </div>
         </div>
     </div>
@@ -16,6 +18,8 @@
     const {product} = defineProps(['product'])
  </script>
 
-<style lang="scss" scoped>
-
+<style  scoped>
+img{
+    max-width: 400px;
+}
 </style>
