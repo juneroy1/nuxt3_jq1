@@ -8,7 +8,10 @@
         omnis.
       </p>
       <div>
-        {{ data }}
+        {{ datacurrency }}
+        <!-- {{ data }} -->
+
+
       </div>
     </div>
   </template>
@@ -19,6 +22,8 @@
    method: 'post', 
    body: {name: 'junerpy', age: 30}
  }) // post request
+
+ const {data:datacurrency} = await useFetch('/api/currency/PHP')
   </script>
   
   <style scoped>
