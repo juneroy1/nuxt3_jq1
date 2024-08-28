@@ -1,9 +1,8 @@
 <template>
     <div>
-        <!-- <p>product details for {{ id }}</p> -->
-         <p>{{ product.title }}</p>
-         <p>{{ product.price }}</p>
-         <p>{{ product.id }}</p>
+        <ProductDetails
+            :product="product"
+        />
     </div>
 </template>
 
