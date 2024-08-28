@@ -11,9 +11,9 @@
     const {id} = useRoute().params
     const url = "https://fakestoreapi.com/products/"+id
 
-
+ 
     // fetch  the product using id
-    const {data: product} = await useFetch(url)
+    const {data: product} = await useFetch(url, {key:id})
 
     definePageMeta({
         layout: 'products'
